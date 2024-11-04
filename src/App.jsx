@@ -1,5 +1,14 @@
 function Square({ value }) {
-  return <button class="w-24 p-6 border border-indigo-600 rounded-none">{value}</button>
+  function handleClick() {
+    console.log('clicked!');
+  }
+
+  return <button
+    className="w-24 p-6 border border-indigo-600 rounded-none"
+    onClick={handleClick}
+    >
+      {value}
+  </button>
 }
 
 export default function Board() {
