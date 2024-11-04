@@ -1,12 +1,22 @@
-function App() {
+export default function Board() {
 
   return (
     <>
-      <h1
-        className="text-3xl text-center text-red-700"
-      >Welcome to Vite with TailwindCSS and React</h1>
+    <div>
+      <button class="w-24 p-6 border border-indigo-600 rounded-none">1</button>
+      <button class="w-24 p-6 border border-indigo-600 rounded-none">2</button>
+      <button class="w-24 p-6 border border-indigo-600 rounded-none">3</button>
+    </div>
+    <div>
+      <button class="w-24 p-6 border border-indigo-600 rounded-none">4</button>
+      <button class="w-24 p-6 border border-indigo-600 rounded-none">5</button>
+      <button class="w-24 p-6 border border-indigo-600 rounded-none">6</button>
+    </div>
+    <div>
+      <button class="w-24 p-6 border border-indigo-600 rounded-none">7</button>
+      <button class="w-24 p-6 border border-indigo-600 rounded-none">8</button>
+      <button class="w-24 p-6 border border-indigo-600 rounded-none">9</button>
+    </div>
     </>
   )
 }
-
-export default App
